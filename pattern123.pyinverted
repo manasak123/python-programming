@@ -1,0 +1,17 @@
+rows=int(input("enter the rows:"))
+for i in range(rows,0,-1):
+    for j in range(0,i):
+       print(j+1,end=" ")
+    print("\n")
+         
+    output:
+    enter the rows:5
+1 2 3 4 5 
+
+1 2 3 4 
+
+1 2 3 
+
+1 2 
+
+1 
