@@ -1,0 +1,13 @@
+n= int(input("enter\n"))   
+sum = 0    
+temp=n
+while(temp> 0):    
+    digit=temp%10
+    sum = sum +digit  
+    temp//=10  
+if(n%sum == 0):    
+    print(str(n) + " is a harshad number")   
+else:    
+    print(str(n) + " is not a harshad number")  
+
+'''
