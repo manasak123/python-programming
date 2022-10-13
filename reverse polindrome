@@ -1,0 +1,15 @@
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+  
+s =input("enter the string")
+  
+print("The reversed string is :")
+print(reverse(s))
+if(s==reverse(s)):
+    print("it is polylindrome")
+else:
+    print("it is not polylindrome")
+    
