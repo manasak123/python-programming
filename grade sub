@@ -1,0 +1,21 @@
+m=int(input("enter the math marks\n"))
+p=int(input("enter the physics marks\n"))
+c=int(input("enter the chemistry marks\n"))
+s=int(input("enter the social marks\n"))
+if(m<0 or m>100 or p<0 or p>100 or c<0 or c>100 or s<0 or s>100):
+    print("enter valid number")
+else:
+    total=m+p+s+c
+    print("total marls is  ",total)
+    avg=total/4
+    print("avg=",avg)
+    if avg>=75:
+        print("distinction")
+    elif  avg>=60 and avg<75:
+        print("grade A")
+    elif avg>=50 and avg<60:
+        print("grade B")
+    elif avg>=40 and avg<50:
+        print("grade C")
+    else:
+        print("fail")
