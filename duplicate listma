@@ -1,0 +1,14 @@
+a=int(input("enter the elements"))
+list=[]
+new=[]
+for i in range(0,a):
+    elements=int(input())
+    list.append(elements)
+print(list)
+for a in list:
+    n=list.count(a)
+    if(n>1):
+        if(new.count(a)==0):
+            new.append(a)
+            print("the duplicate from list is",new)           
+        
