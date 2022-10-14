@@ -1,0 +1,13 @@
+a=int(input("enter 1st denomination\n"))
+a1=int(input("enter 1st denomination number of notes\n"))
+b=int(input("enter 2nd denomination\n"))
+b1=int(input("enter 2nd denomination number of notes\n"))
+c=int(input("enter 3rd denomination\n"))
+c1=int(input("enter 3rd denomination number of notes\n"))
+d=int(input("enter 4th denomination\n"))
+d1=int(input("enter 4th denomination number of notes\n"))
+if((a==500 or a==100 or a==200 or a==2000)and(b==500 or b==100 or b==200 or b==2000)and(c==500 or c==100 or c==200 or c==2000)and(d==500 or d==100 or d==200 or d==2000)) :
+       total=a*a1+b*b1+c*c1+d*d1
+       print("total available balance in ATM is ",total)
+else:
+    print("enter correct denomination")
