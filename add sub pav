@@ -1,0 +1,20 @@
+x=eval(input("enter the number of x:"))
+n=eval(input("enter the number of n:"))
+choice=input("enter any character:")
+if(choice=='+'):
+    ADD=x+n
+    print("addition is:",ADD) 
+elif(choice=='-'):
+    sub=x-n
+    print("subtraction is:",sub)
+elif(choice=='*'):
+    mul=x*n
+    print("multiplication is:",mul)
+elif(choice=='**'):
+    power=x**n
+    print("power is:",power)
+elif(choice=='/'):
+    div=x/n
+    print("division is:",div)
+else:
+    print("invalid input")
