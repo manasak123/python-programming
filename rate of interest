@@ -1,0 +1,18 @@
+p=float(input("enter the principal amount:"))
+t=int(input("enter the time:"))
+c=input("enter whether the person is senior or not\n")
+g=input("enter the gender of the person\n")
+if(c=='y' or c=='Y' and g=='f' or g=='F'):
+    r=15
+    s=p*t*r/100
+    print("simple intrest is:",s)
+elif(c=='y' or c=='Y'  and g=='m' or g=='M'):
+    r=12
+    s=p*t*r/100
+    print("simple intrest is:",s)
+elif(c=='n' or c=='N'  and g=='m' or g=='M' or g=='f' or g=='F'):
+    r=10
+    s=p*t*r/100
+    print("simple intrest is:",s)
+else:
+    print("invalid syntax")
